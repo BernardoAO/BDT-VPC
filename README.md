@@ -22,12 +22,12 @@ psycho059_002.csv
 
 ## IMPORT
 
-An example of how to import the data in Python can be found in the file "Import_VPC.py" and in Matlab in the file "VPC_Neuron_analyser.mlx" under the section "Import".
+An example of how to import the data in Python can be found in the file "Import_VPC.py" and in MATLAB in the file "VPC_Neuron_analyser.mlx" under the section "Import".
 
 
 ## ANALYSIS
 
-Analyses for the VPC and the RNN data were done in Matlab, with the file:
+Analyses for the VPC and the RNN data were done in MATLAB, with the file:
 
 ->  VPC_Neuron_analyser.mlx
 
@@ -35,7 +35,7 @@ For the mistake trials analysis, a separate file was used:
 
 ->  VPC_Neuron_analyser.mlx
 
-RNN models runned in Colab:
+RNN models were run in Colab:
 
 -> RNN_BDT.ipynb
 
@@ -43,12 +43,13 @@ RNN models runned in Colab:
 Contents of **VPC_Neuron_analyser.mlx**:
 * Import
 * Psychometrics
-* Firering Rate
+* Frequency
 * GLM
+* MLM
 * Mutual Information
 * Mutual Information pairs
 * AUROC
 * Variance
 * PCA
 * PS Similarity
-* dPCA
+* dPCA (using Kobak repository, found at https://github.com/machenslab/dPCA)
