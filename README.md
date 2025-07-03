@@ -1,7 +1,7 @@
 # Bimodal-Detection-analysis
 Analysis of the Ventral Prefrontal Cortex in the Bimodal Detection Task
 
-### PREPROCESING:
+## PREPROCESING:
 
 The spikesorting was done using the toposort repository. The neuron files used for the analysis contain ...
 in the form:
@@ -25,7 +25,7 @@ psycho059_002.csv
 An example of how to import the data in Python can be found in the file "Import_VPC.py" and in Matlab in the file "VPC_Neuron_analyser.mlx" under the section "Import".
 
 
-### ANALYSIS:
+## ANALYSIS:
 
 Analyses for the VPC and the RNN data were done in Matlab, with the file:
 
