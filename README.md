@@ -4,11 +4,11 @@ Analysis of the Ventral Prefrontal Cortex in the Bimodal Detection Task
 ## PREPROCESING
 
 The spikesorting was done using the toposort repository. The neuron files used for the analysis contain ...
-in the form:
+The name is in the form:
 
 session_electrode_neuronID.csv
 
-For example:
+for example:
 
 059_002e1neuron_1_.csv
 
@@ -16,13 +16,15 @@ Each session has an associated psychometric file in the form:
 
 psycho_session.csv
 
-For example:
+for example:
 
 psycho059_002.csv
 
+The file named "All_Psico.csv" contains the label of the corresponding psychometric file for each neuron.
+
 ## IMPORT
 
-An example of how to import the data in Python can be found in the file "Import_VPC.py" and in MATLAB in the file "VPC_Neuron_analyser.mlx" under the section "Import".
+An example of how to import data in Python can be found in the file "Import_VPC.py", and in MATLAB, in the file "VPC_Neuron_analyser.mlx" under the "Import" section.
 
 
 ## ANALYSIS
