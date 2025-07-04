@@ -1,9 +1,10 @@
 # Bimodal-Detection-analysis
 Analysis of the Ventral Prefrontal Cortex in the Bimodal Detection Task
 
-## PREPROCESING
+## Preprocesing
 
-The spikesorting was done using the toposort repository. The neuron .csv files used for the analysis contain the spike times for each unit, in the shape trials x n_spikes.
+The spikesorting was done using the toposort repository. The neuron .csv files used for the analysis contain the spike times for each unit centered at the time of the stimulus arrival,
+with the exception of R32r, where the centering and dividing by the sampling rate have to be done manually. The arrays are in the shape trials x n_spikes.
 The name is in the form:
 
 session_electrode_neuronID.csv
@@ -22,12 +23,12 @@ psycho059_002.csv
 
 The file named "All_Psico.csv" contains the label of the corresponding psychometric file for each neuron.
 
-## IMPORT
+## Import
 
 An example of how to import data in Python can be found in the file "Import_VPC.py", and in MATLAB, in the file "VPC_Neuron_analyser.mlx" under the "Import" section.
 
 
-## ANALYSIS
+## Analysis
 
 Analyses for the VPC and the RNN data were done in MATLAB, with the file:
 
@@ -37,7 +38,7 @@ For the mistake trials analysis, a separate file was used:
 
 ->  VPC_Neuron_analyser.mlx
 
-RNN models were run in Colab:
+RNN models were trained in PyTorch:
 
 -> RNN_BDT.ipynb
 
