@@ -24,7 +24,7 @@ The file named "All_Psyco.csv" contains the label of the corresponding psychomet
 
 ## Import
 
-An example of how to import data in Python can be found in the file "Import_VPC.py", and in MATLAB, in the file "VPC_Neuron_analyser.mlx" under the "Import" section.
+An example of how to import the data in Python can be found in the file "Import_VPC.py", and with MATLAB in the file "VPC_Neuron_analyser.mlx" under the "Import" section.
 
 
 ## Analysis
