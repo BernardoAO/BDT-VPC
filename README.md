@@ -20,7 +20,7 @@ for example:
 
 psycho059_002.csv
 
-The file named "All_Psico.csv" contains the label of the corresponding psychometric file for each neuron.
+The file named "All_Psyco.csv" contains the label of the corresponding psychometric file for each neuron.
 
 ## Import
 
