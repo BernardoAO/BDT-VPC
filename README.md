@@ -3,8 +3,7 @@ Analysis of the Ventral Prefrontal Cortex in the Bimodal Detection Task
 
 ## Preprocesing
 
-The spikesorting was done using the toposort repository. The neuron .csv files used for the analysis contain the spike times for each unit centered at the time of the stimulus arrival,
-with the exception of R32r, where the centering and dividing by the sampling rate have to be done manually. The arrays are in the shape trials x n_spikes.
+The spikesorting was done using the toposort repository. The neuron .csv files used for the analysis contain the spike times for each unit centered at the time of the stimulus arrival. The arrays are in the shape trials x n_spikes.
 The name is in the form:
 
 session_electrode_neuronID.csv
